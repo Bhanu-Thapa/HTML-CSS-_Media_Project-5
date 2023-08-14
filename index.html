@@ -4,45 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media Project 5</title>
+    <!-- STYLE -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- navigation -->
     <nav>
       <ul>
-        <li><a href="#">Home</a></li>
+        <li class="mark"><a href="#">Home</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Technologies</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+
+      <img src="./img/hambrger.png" alt="navi" />
     </nav>
 
     <!-- main  -->
     <main>
-      <div>
-        <h2>
-          <img src="./img/waving-hand.png" alt="waving-hand" /> Hi Everyone
-        </h2>
+      <div class="right-container">
+        <div class="hand-greeting">
+          <img class="wave" src="./img/waving-hand.png" alt="waving-hand" />
+          <h2>Hi Everyone</h2>
+        </div>
         <h1>Mark Anderson</h1>
-        <h2>Developer</h2>
+        <h2><span>Developer</span></h2>
       </div>
-      <div><img src="./img/pc-image.png" alt="pc-image" /></div>
+      <div class="left-container">
+        <img src="./img/pc-image.png" alt="pc-image" />
+      </div>
     </main>
 
     <!-- Project Section -->
-    <section>
-      <h2>Projects</h2>
-      <img src="./img/image.png" alt="Project1" />
-      <img src="./img/image.png" alt="Project2" />
-      <img src="./img/image.png" alt="Project3" />
-      <img src="./img/image.png" alt="Project4" />
+    <section class="sec-pro">
+      <div>
+        <h2 class="pro">Projects</h2>
+        <div class="border"></div>
+      </div>
+      <div class="img-container">
+        <div>
+          <img src="./img/image.png" alt="Project1" />
+          <p>Project 1</p>
+        </div>
+        <div>
+          <img src="./img/image.png" alt="Project2" />
+          <p>Project 2</p>
+        </div>
+        <div>
+          <img src="./img/image.png" alt="Project3" />
+          <p>Project 3</p>
+        </div>
+        <div>
+          <img src="./img/image.png" alt="Project4" />
+          <p>Project 4</p>
+        </div>
+      </div>
     </section>
 
     <!-- footer -->
     <footer>
-      <h2>Contact Me</h2>
-      <img src="./img/github.png" alt="" />
-      <img src="./img/linkedin.png" alt="" />
-      <img src="./img/outlook.png" alt="" />
+      <div>
+        <h2 class="foot">Contact Me</h2>
+        <div class="border"></div>
+      </div>
+      <div class="contact-logo">
+        <a href="#">
+          <img src="./img/github.png" alt="" />
+        </a>
+        <a href="#">
+          <img src="./img/linkedin.png" alt="" />
+        </a>
+        <a href="#">
+          <img src="./img/outlook.png" alt="" />
+        </a>
+      </div>
     </footer>
   </body>
 </html>
